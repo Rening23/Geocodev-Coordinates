@@ -1,0 +1,41 @@
+# --- General ---
+__pycache__/
+*.py[cod]
+*.log
+*.sqlite3
+*.db
+*.dump
+*.bak
+*.swp
+.DS_Store
+
+# --- Entornos virtuales ---
+venv/
+env/
+.geocodev/
+
+# --- Django static/media (generados) ---
+staticfiles/
+media/
+
+# --- Config local / secretos ---
+.env
+.env.*
+!.env.example          # si quieres subir un ejemplo sin secretos
+.env.backend.prod
+.env.local
+.env.production
+
+# --- Node / React ---
+node_modules/
+build/
+dist/
+
+# --- Archivos comprimidos y notas personales ---
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*Back_hidrology.txt
+*Back_home.txt
+
